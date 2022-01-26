@@ -1,3 +1,21 @@
 -- AULA --> Criando seu primeiro repositório no GitHub
 
 Criação, atualialização e sincronização
+
+Podemos criar um repositório atraves do GitHub mesmo
+
+Na própria máquina onde será feito o trabalho, usar o botão direito para abrir o terminal Git Bash
+
+No terminal, usar:
+
+git clone LINK (para efetuar o 'download' do repositório criado no GitHub
+
+O terminal fará esse procedimento, já deixando o diretório/pasta preparado com essa ligação entre o Working Space (máquina em que está sendo feito o trabalho) com a Remote Repository (Servidor)
+
+Qualquer alteração feita no WS, usar:
+git status
+git add . ou -A (para toda e qualquer modificação - os novos arquivos e alterações nos arquivos existentes)
+git commit -m "comentário" (nunca esquecer do -m)
+
+E para mandar as atualizações para o Servidor (GitHub), usar:
+git push origin main ('main' é o que estamos usando, criado pelo GitHub)
