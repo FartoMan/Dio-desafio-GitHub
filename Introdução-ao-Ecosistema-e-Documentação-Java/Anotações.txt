@@ -1,5 +1,8 @@
 O professor desse curso exige (sem falar) muito conhecimento prévio sem ensinar. Passa muito caminho e explica pouco sobre os processos utilizados, pouco didático (para um iniciante)
 
+Curso a ser feito para a conclusão dessa aula:
+Curso em vídeo - https://www.cursoemvideo.com/curso/java-basico/
+
 -------------
 Aula 1 - Introdução ao ecossistema Java
 
