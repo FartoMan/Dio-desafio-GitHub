@@ -1,1 +1,40 @@
+Aula 1 - Introdução ao ecossistema Java
 
+-------------
+
+1 - Conhecendo o Java
+
+É uma linguagem de programação
+compilada
+interpretada
+tipada
+linguagem de alto nível (orientada a objeto, lingua que conversa mais com o computador)
+executada em máquina virtual JVM (Java Virtual Machine)
+
+-------------
+
+2 - Entendendo JVM (Java Virtual Machine)
+
+Máquina virtual responsável pela tradução dos ByteCodes oriundos do compilador Javac (Java Compiler)
+
+Características:
+Execução de pilhas
+Gerenciamento de memória (alocação/desalocação)
+Gerenciamento de threads
+Otimização de código (Compilação JIT - Just In Time)
+Garbage Collector (GC) - limpa o lixo da memória(?)
+
+Java compila pelo Javac e torna possível a execução de um único código em diversos sistemas operacionais.
+
+JRE (Java Runtime Environment) - Executar programas em Java
+JDK (Java Development Kit) - permite o desenvolvimento de programas. Já possui JVM para executar os programas
+
+Java SE (Java Standard Edition)
+Java EE (Java Enterprise Edition)
+Java ME (Java Micro Edition) - Para dispositivos pequenos
+
+Implementações JavaSE, usaremos a OpenJDK
+
+-------------
+
+3 - 
