@@ -39,6 +39,31 @@ Implementações JavaSE, usaremos a OpenJDK
 
 Instalamos uma maquina virtual (Oracle Virtual Box) para rodar o Linux Ubuntu para instalar a JVM
 
+Apartir dessa aula, tramito entre o meu SO, que é Windows 10 (W10), e o Linux Ubuntu 20.04, na Máquina Virtual (MV)
+- No W10, uso praticamente apenas para fazer anotações
+- O LU, uso para o Java
+- Faço dessa forma para seguir a didática do professor
+
 -------------
 3 - Instalando JVM
 
+Na máquina virtual (MV) Linux Ubuntu (LU)
+
+Praticamente, "Ctrl+C e V" no terminal do LU, para baixar, instalar e usar:
+Precisaremos desse comandando (curl) instalado:
+sudo apt install curl (o processo é automático)
+
+Instalando o Java (direto do GitHub (GH é vida <3)):
+https://github.com/shyiko/jabba/
+No terminal LU:
+curl -sL https://github.com/shyiko/jabba/raw/master/install.sh | bash && . ~/.jabba/jabba.sh
+
+Instalado, usamos:
+jabba ls-remote (para listar todas as versões e implementações do JDK)
+jabba install VERSÃO (para instalar uma das versões)
+jabba ls (para listar as versões instaladas)
+jabba use VERSÃO (para usar uma versão instalada)
+java -version (para conferir a versão que está sendo utilizada)
+
+-------------
+4 - Executando um programa Java
