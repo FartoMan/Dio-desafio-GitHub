@@ -1,3 +1,6 @@
+O professor desse curso exige (sem falar) muito conhecimento prévio sem ensinar. Passa muito caminho e explica pouco sobre os processos utilizados, pouco didático (para um iniciante)
+
+-------------
 Aula 1 - Introdução ao ecossistema Java
 
 -------------
@@ -67,3 +70,5 @@ java -version (para conferir a versão que está sendo utilizada)
 
 -------------
 4 - Executando um programa Java
+
+Instalação do Sublime Text 
