@@ -37,4 +37,8 @@ Implementações JavaSE, usaremos a OpenJDK
 
 -------------
 
-3 - 
+Instalamos uma maquina virtual (Oracle Virtual Box) para rodar o Linux Ubuntu para instalar a JVM
+
+-------------
+3 - Instalando JVM
+
