@@ -75,3 +75,104 @@ java -version (para conferir a versão que está sendo utilizada)
 4 - Executando um programa Java
 
 Instalação do Sublime Text 
+
+!!! RETOMAR ESSA AULA para seguir os metodos deste professor !!!
+
+
+
+------------ PARTE 2 - Contextualização
+1 - Palavras reservadas
+Apresentada um lista de palavras reservadas do Java para a sua funcionalidade padrão.
+
+2 - Declarações de classes
+Uma estrutura basica de Classe Java é formada pelo Modificador de acesso / palavra reservada "classe" / o nome da classe
+A declaração de classe definirá se terá acesso em outros pacotes, utilizando o "import classe-em-de-pacote"
+
+3 - Modificadores de acesso
+3 tipos acesso aos metodos outros conteúdos contidos na classe: 
+public - Qualquer classe de qualquer pacote pode acessar
+protected - Qualquer classe definida no mesmo pacote ou subclasses
+private - Apenas a própria classe
+
+4 - Métodos
+São funções que definem o comportamento de uma classe. Dois tipos:
+Metodos construtores - Definirá como uma classe será instanciada/construída
+Métodos comuns - Definem comportamentos que podem ou não estar atribuídos às regras de negócio 
+
+5 - Estrutura de condição
+Responsável por fazer o desvio do fluxo de execução de um codigo de acordo com uma dada condição. Dois tipos:
+if/else - "Se isso acontece, será executado o que está dentro desse parâmetro, ou então/else isso"
+swit/case - Parecido com o anterior, é uma condicional, mas com base no retorno. Os casos/case variam/swit de acordo com seus parâmetros
+
+6 - Estrutura de repetição
+Responsável por executa repetitivamente uma instrução até que tal condição seja TRUE
+No Java, temos 4 tipos. A maioria necessita de um contador, uma variável contadora definida antes ou nele:
+while - Necessário a váriavel contadora antes, seja ela qual for. Um contador mesmo, ou algum valor a ser atingido, ou alguma condição a ser atingida. Seu valor deve aumentar ao final do bloco, se não vira um loop infinito
+do/while - 
+for - for(int i = 1; i < x; i++) { }
+enhaced for - 
+
+
+------------ PARTE 3 - Documentação Java
+
+Os comentários são uma forma de descrever os acontecimentos dentro do código, a criação, alterações e seus porquês, o que é e onde uma variável é utilizada... Uma forma de traduzir o código sem alterá-lo, de forma que qualquer um, dependendo da forma que foi descrita, entender o que acontece em tal linha, bloco, chave, classe, if, else, for, while, etc...
+
+Muito útil para o próprio autor, levando em conta que se usa o mesmo comando para diversas outras funcionalidades, evitando se confundir no decorrer desse e de outros programas.
+
+
+1 - Comentários em linha
+É o "//" para colocar comentários dentro do código, principalmente trabalhando em equipe. Bom para o grande Ctrl+F
+
+2 - Comentários em bloco
+É o comentário que pega várias linhas até ser fechado, representado para começar com "/*" e para fechar "*/"
+
+3 - Javadoc
+Essa ferramenta gera arquivos para a documentação, deixando ele arquivado em um diretório que faz parte do programa desenvolvido.
+Ela formata para HTML, baseando-se nos comentários do código fonte. Os comentários precisam de tags para que a documentação fique legível(?). O "Javadoc" é uma ferramenta que faz esse trabalho para facilitar o acesso de outros desenvolvedores a esses comentários.
+
+4 - Tags Javadoc
+A tag é sempre acompanhada do @ e as tags, são elas:
+@author - Especifica o autor
+@deprecated - Identifica classes ou métodos obsoletos
+@link - definição de um link para outro documento local ou remoto atravez de uma URL
+@param - Descreve um parâmetro que será passado a um método
+@return - Descreve qual o tipo de retorno de um método
+@see - Associa a outras classes ou metodos
+@since - Descreve desde quando a classe ou método foi add
+@throws - Descreve os tipos de exceções que podem ser lançadas por um método (que está sendo utilizado)
+@version - descreve a versão da classe ou métodos
+
+
+
+------------ PARTE 4 - Mercado e carreira
+
+1 - Comunidade Java
+
+O tamanho da comunidade, de programas/aplicativos/sistemas que utilizam a linguagem, auxilia e muito na escolha do Java por uma empresa.
+A quantidade de foruns, grupos, etc deixa o compartilhamento de conhecimento muito grande, útil e arrematador para tirar dúvidas, resolver problemas, auxíliar em um projeto pessoal e até profissional.
+
+2 - Carreira
+Sempre bom se especializar MESMO em uma área, pois é o que as empresas tem buscado cada vez mais, pois elas são firmes em uma só estrutura de código para a consolidação de seus produtos.
+As empresas estão focando cada vez mais na estrutura em "Y", de baixo pra cima num sistêma hierárquico
+
+3 - Mercado atual
+Hoje, está em alta. A busca está muito grande por profissionais realmente especializados, qualificados.
+Startups de diversos ramos adotaram a linguagem Java:
+PagSeguro, iFood, AWS, Mercado Livre, Itaú...
+
+4 - Requisitos do profissional
+Evoluindo no Java ou em qualquer área de TI, é necessário desenvolver Soft Skill quanto Hard Skill. A prioridade muitas vezes é a Soft Skill:
+- Resolução de problemas complexos
+- Pensamento crítico
+- Criatividade
+- Gestão de pessoas
+- Coordenação em equipe
+- Liderança
+
+A Hard Skill é voltada para o conhecimento aprofundado de uma ferramenta:
+- Spring Boot
+- Spring Cloud
+- Apache Kafka
+- RabbitMQ
+- Arquitetura Cloud
+- Banco de dados relacional e não relacional
