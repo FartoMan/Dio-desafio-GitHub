@@ -1,0 +1,76 @@
+------- PARTE 1 - Apresentação
+---- Prof. Camila Cavalcante
+--- https://github.com/cami-la/curso-dio-dominando-ides-java
+
+Aprender a configurar o ambiente Java no sistema Windows e Linux.
+Conhecer um pouco as principais funcionalidades das IDEs mais utilizadas do mercado: Eclipse e ItelliJ IDEA IDE.
+
+AULA
+
+Java - Linguagem de programação orientada a objetos. Desenvolvida na década de 90, na empresa Sun Microsystems, adquirida pela Oracle em 2008.
+
+NOTA: prestar muita atenção em orientação de objetos para dominar o Java.
+
+Java é uma linguagem INTERPRETADA, ou seja, ela é compilada para um bytecode que é interpretado por uma máquina virtual:
+
+Ex.: Programa.Java > COMPILADOR > Programa.class > JVM > 010001110
+
+Os programas Java tem a grande vdantagem de serem executados em vários SO e também em sistemas embarcados (que não tem um "monitor")
+
+- O JDK compila o código fonte em bytecode (escrito em algum IDE ou qualquer editor de texto, desde que seja um código kk).
+- O JVM lê o arquivo compilado (.class) com auxílio das bibliotecas contidas no JRE.
+
+NOTA: lembrando, JDK é de desenvolvedor, JRE é para executar os programas, ou seja, de usuários. O JDK já possui o JRE.
+
+
+IDE - Ambiente de Desenvolvimento Integrado: combina ferramentas comuns de desenvolvimento em uma uúnica interfacae gráficfa do usuário (GUI).
+
+Eclipse: Feito em Java, atende diversas linguagens também.
+IntelliJ EDEA: Escrito em Java, votlando para de desenvolvimento de software para computador, principalmente.
+
+NOTA: NÃO SE APEGUE A IDEs kkk
+
+
+
+------- PARTE 2 - Ambiente de desenvolvimento Ubuntu
+
+Intalação JDK, Git, Eclipse e IntelliJ
+
+------- PARTE 3 - Ambiente de desenvolvimento Windows
+
+Intalação JDK, Git, Eclipse e IntelliJ
+
+Na aula, ela recomenda o JDK da Azul. Eu utilizei o da Oracle, pois já acompanhava o Curso em Vídeo.
+
+Exemplo de criação de um programa Java sem uso de IDE, só no Bloco de Notas: o famoso HELLO WORLD (arquivo PrimeiroProgramaNoBN). Segue instrução:
+
+- No terminal do Windows, ir ao diretório onde foi salvo o arquivo.java para compilar usando o javac
+	javac PrimeiroProgramaNoBN.java
+
+- Feito isso, foi criado o arquivo PrimeiroProgramaNoBN.class
+- Agora, é só executar:
+	java PrimeiroProgramaNoBN (sem . mesmo)
+- Pronto! Super chique!
+
+
+-- Instalando Eclipse
+Instalação normal pelo próprio site.
+- Na instalação, escolher: Eclipse IDE for Enterprise Java and Web Developers
+
+-- Instalando IntelliJ
+Só instalar normalmente.
+
+------- PARTE 4 - Eclipse
+
+Criar um projeto simples do Java, para familiarizar com a interface da IDE.
+- Ao criar um novo projeto, cria-se a classe na pasta src (Ctrl + N, com a pasta src clicada)
+- Criamos um pacote "com.dio"
+- F2, Para renomear o nome de um pacote
+-- Alteramos o nome para "br.com.dio"
+- Criamos outra class dentro do pacote "br.com.dio", e nessa classe criamos o pacote "model", acrescentando mais um .: "br.com.dio.model"
+-- Cada "." é a separação de uma nova pasta, ou seja, tem a pasta "br" contendo a pasta "com" contando a pasta "dio" com a pasta "model"
+- Ctrl+3 abre uma janela com vários comandos, que geram comandos utilizando a estrutura já criada, como variáveis, pacotes etc.
+- Ctrl+Shift+F - Organiza o documento
+- Selecionar um string e usar "Alt+SetaCima ou SetaBaixo" move a linha
+
+------- PARTE 5 - IntelliJ
