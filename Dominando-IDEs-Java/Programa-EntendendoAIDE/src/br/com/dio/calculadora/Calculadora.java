@@ -15,9 +15,9 @@ public class Calculadora {
 		System.out.println("Digite o segundo valor: ");
 		b = scan.nextInt(); // Recebe o valor de b
 		
-		int soma = soma(a,b);
-		int subtracao = subtracao(a,b);
-		int multiplicacao = multiplicacao(a,b);
+		int soma = soma(a,b); // Declaração da variável soma
+		int subtracao = subtracao(a,b); // Declaração da variável subtracao
+		int multiplicacao = multiplicacao(a,b); // Declaração da variável multiplicacao
 		double divisao = divisao(a,b); // Nota da variável, ao invés de int, usei double para corrigir o problema do valor decimal
 		
 		System.out.println("soma " + soma);		
