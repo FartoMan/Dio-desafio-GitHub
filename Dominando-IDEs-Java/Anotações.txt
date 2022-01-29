@@ -91,9 +91,15 @@ Exemplo com um sistema de calculadora.
 
 Criar um projeto
 
+!! Comentários no Código !!
+
 - Alt+Insert - É o canal em qualquer seleção
 - Alt+Shift+F10 - Faz a primeira inicialização do programa, feito já no Hello World
 - Shift+F10 - Roda o programa
 - Ctrl+Shift+/ - Comenta o bloco selecionado com "/*" e "*/"
 - Ctrl+/ - Comenta linha a linha com "//"
 - Ctrl+Y - Deleta linha
+- Ctrl+Alt+L - Organiza o documento
+- Ctrl+D - Duplica linha
+- Ctrl+Y - Deleta linha
+- Shift+F6 - Renomeia a classe selecionada
