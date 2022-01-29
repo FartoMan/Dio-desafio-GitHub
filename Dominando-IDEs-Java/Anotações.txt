@@ -72,5 +72,19 @@ Criar um projeto simples do Java, para familiarizar com a interface da IDE.
 - Ctrl+3 abre uma janela com vários comandos, que geram comandos utilizando a estrutura já criada, como variáveis, pacotes etc.
 - Ctrl+Shift+F - Organiza o documento
 - Selecionar um string e usar "Alt+SetaCima ou SetaBaixo" move a linha
+-Ctrl+D - Apaga uma linha inteira
+-Ctrl+A+Seta - Duplica seleção
+
+
+É possível fazer o push para o GitHub diretamente pelo Eclipse, clicando com o botão direito do mouse sob a pasta inicial do projeto > Team > Share Project
+Compartilhar pelo Terminal, ao criar um diretório no GitHub haverá as instruções de como fazer o versionamento passo-a-passo.
+
+--Aula Debug/Depuração - Funcionalidades Debug dentro dessa IDE
+Encontrar e corrigir erros dentro do programa, basicamente.
+
+Exemplo com um sistema de calculadora.
+
+!! Vários comentários no Código !!
+
 
 ------- PARTE 5 - IntelliJ
