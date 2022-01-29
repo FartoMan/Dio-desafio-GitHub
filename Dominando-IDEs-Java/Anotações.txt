@@ -103,3 +103,9 @@ Criar um projeto
 - Ctrl+D - Duplica linha
 - Ctrl+Y - Deleta linha
 - Shift+F6 - Renomeia a classe selecionada
+
+
+Plugins interessantes
+- Rainbow Brackets
+
+!! Comentários do Debug no Código !!
