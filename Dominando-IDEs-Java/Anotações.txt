@@ -88,3 +88,12 @@ Exemplo com um sistema de calculadora.
 
 
 ------- PARTE 5 - IntelliJ
+
+Criar um projeto
+
+- Alt+Insert - É o canal em qualquer seleção
+- Alt+Shift+F10 - Faz a primeira inicialização do programa, feito já no Hello World
+- Shift+F10 - Roda o programa
+- Ctrl+Shift+/ - Comenta o bloco selecionado com "/*" e "*/"
+- Ctrl+/ - Comenta linha a linha com "//"
+- Ctrl+Y - Deleta linha
