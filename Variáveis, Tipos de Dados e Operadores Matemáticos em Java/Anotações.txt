@@ -1,0 +1,15 @@
+Professor: Thiago Leite e Carvalho
+
+------- AULA 1 - Conceituação e criação
+
+
+
+------- AULA 2 - Tipos de dado
+
+
+
+------- AULA 3 - Operadores Aritméticos
+
+
+
+------- AULA 4 - Conversões(casting)
