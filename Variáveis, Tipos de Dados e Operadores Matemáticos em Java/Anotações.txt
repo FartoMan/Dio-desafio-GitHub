@@ -2,6 +2,67 @@ Professor: Thiago Leite e Carvalho
 
 ------- AULA 1 - Conceituação e criação
 
+Entender e criar variaveis
+
+O que é uma Variável:
+Um espaço na memório do computador onde se pode guardar valores. Pede-se ao computador que guarde um espaço para armazenar valores.
+
+Tipos, no Java:
+Instância: objeto
+Classe: classe
+Local: dentro do método - Metodo "main" que criamos as variáveis iniciais
+Parâmetro: na assinatura do método
+
+----
+Padrão de definição:
+<?visibilidade?> <?modificador?> tipo nome <?=valorInicial?>; (entre ?? são opcionais)
+Ex.: int contagem = 1;
+
+V visibilidade: "public", "protected" e "private"
+Estão ligadas a orientação a objeto
+M: "static" e "final"
+static ligado a orientação a objeto.
+"final" quer dizer a variavel é contante, ou seja, o valor da variável não é alterado
+T tipo de dado: sempre tem que informar  o tipo da variável
+N: identificador da variável
+VI: valor inicial da variável
+----
+
+----
+Regras e convenções na criação de variável:
+- Não devem começar com números;
+- "$" e "_" devem ser evitados, mas permitidos;
+- São case-sensitive (m M)
+Ex.: int 
+- Sem espaços;
+- Não pode ser as palavras reservadas do Java
+
+Exemplos de variáveis:
+int i; 
+int I; (completamente diferente da anterior)
+int 1a; (NÃO PERMITIDA, gera erro de compilação)
+int _1a; (não é uma boa prática, não gera erro de compilação)
+int I = 10 (valor inicial definido)
+int final j = 10 (variável constante, se tentar alterar o valor da variável, será gerado um erro de compilação)
+int asrn24678md;
+int asrn246 78md; (NÃO PERMITIDA pelo espaço)
+----
+
+Boas práticas na criação de variáveis
+- Lembrar que é um trabalho de equipe;
+- Sempre começar com a letra minúsculas;
+- Nomes expressivos para identificar facilmente a função daquela variável
+- Notação camelo (minúsculaMaiúscula)
+- Quando constante(final) maiúscula e separada por "_"
+
+Ex.:
+int quantidadeProduto;
+int final NUMERO_TENTATIVAS = 5;
+int i; (bom para opções descartáveis, no caso do "for", usando a "int i" como contador)
+
+-------
+Exercitando: aulaumvariaveis.java
+
 
 
 ------- AULA 2 - Tipos de dado
