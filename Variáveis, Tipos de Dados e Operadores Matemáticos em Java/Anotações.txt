@@ -67,10 +67,101 @@ Exercitando: aulaumvariaveis.java
 
 ------- AULA 2 - Tipos de dado
 
+Entender o que são tipos de dados e quando usá-los
 
+Tipos de dados: são os valores e consequentemente operações que as variáveis podem assumir e sofrer, respecftivamente.
+
+Tipificação:
+- Estática(forte) vs Dinâmica(fraco)
+Estática: quando uma linguagem obriga a definir o tipo de dado
+Dinâmica: Não é obrigado. Durante a execução, o programa identifica e assume o tipo
+- Primitivo vs Composto
+Primitivos: valores numericos, textuais. Tipo de dado Homogeneo
+Composto: ligado a orientação a objeto. Tipo de dado Heterogeneo
+
+----
+Tipos de dados:
+- Textual
+Ex.: char c = 'T'
+String (primitivado)
+
+- Numeral
+Ex.: byte: -128 até 127 -> byte b = 15;
+     short: -32.768 até 32.767 -> 
+
+NOTA > Float e double são variaveis de números reais, fracionados
+
+- Lógico
+Ex.: Boolean True or False
+
+- Objeto
+
+Tipo de dado	| Valor default
+-------------------------------
+byte 		| 0
+short 		| 0
+int		| 0
+long		| 0L
+float		| 0.0f
+double		| 0.0d
+char		| '\u0000'
+String		| null
+boolean		| false
+
+----
+
+Boas práticas
+Usar de forma adequada cada tipo de dado para cada informação, ou seja, desde o início saber qual tipo
 
 ------- AULA 3 - Operadores Aritméticos
 
+Entender o que são e saber como utilizar.
 
+Para todas as linguagens de programação, são símbolos especiais que são capazes de realizar ações específicas em um, dois ou mais operandos e, em seguida, retornar um resultado.
+
+Tipos:
+- pós-fixado: exp++ ou exp-- (soma ou subtrai, atuando no operando expecificado)
+- prefixado: ++exp ou --exp (como é pré, ele soma ou subtrai antes de ver a expressão)
+- aritmético: +, -, *, / e %
+- atribuição: =, +=, -=, *=, /=, %=
+
+Ex.:
+int i = ++k; -> i = k + 1;	
+int j = k--; -> j = k;k = k-1;	
+float f = 1.5f + 4.5f;
+long l = 10398L * 5L;
+double d = 45d / 4d;
+int k = 15 % 4;
+double d = f;
+i +=5; -> i = i + 5;
+j -=3; ->j = j - 3;
+d /= 2.7d; -> d = d / 2.7d;
+l *= 3; -> l = l * 3;
+k %= 2; -> k  = k % 2;
+
+Ordem de precedência (calculo realizado primeiro):
+Pós-fixado	exp++, exp--
+Préfixado	++exp, --exp
+Multiplicação	*, /, %
+Aditivo		+, -
+Atribuição	=, +=, -=, *=, /=, %=
 
 ------- AULA 4 - Conversões(casting)
+Entender o que é casting, seus tipos e saber quando e como usar
+
+Casting: É a transformação de uma determinada variável de tipo menos específico para um tipo mais específico ou vice-versa.
+
+Tipos:
+Upcast(implícito) - converte para um tipo de dado que suporta mais dado, (implícito, não é necessário dizer para qual tipo de variável será transformado, pois é implícito)
+Downcast(explícito) - converte para um tipo de dado de menor capacidade de representação e armazenamento (já aqui, é necessária a especificação)
+
+Ex.:
+long l; int i = 10; l = i; 
+int i; long l = 100; i = (int) l;
+double d; float f = 10.5f; d = f;
+float f; double d= 10.5d; f = (float) d;
+int i; float f = 10.5f; i = (int) f;
+
+NOTA: Tanto em tipos primitivos e objetos
+
+

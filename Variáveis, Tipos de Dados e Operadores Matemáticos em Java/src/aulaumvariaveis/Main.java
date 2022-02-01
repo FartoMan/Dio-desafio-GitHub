@@ -39,7 +39,7 @@ public class Main {
         System.out.println(j);
         System.out.println(asrn24678md);
         System.out.println(asrn246_78md);
-        
+
         System.out.println(quantidadeProduto);
         System.out.println(NUMERO_TENTATIVAS);
         System.out.println(QUANTIDADE_OPCOES);
