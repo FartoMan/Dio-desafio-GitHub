@@ -1,0 +1,62 @@
+Prof.: Thiago Leite e Carvalho
+
+------- AULA 1 - Criação
+O que é um método?
+É uma porção de código que é disponibilzda por uma classe, que é executado quando é feita uma requisição a ele. São responsáveis por definir e realizar um determinado comportamento.
+
+Toda execução de um software é realizada pelos metodos
+
+Não existe método que não esteja dentro de uma classe. Tudo que queremos que aconteça, que seja executado, está dentro dos métodos.
+
+Métodos também são chamados por Objetos (orientação a objetos)
+
+NOTA: O que acontece no método dentro da classe, fica na classe.
+
+Criação
+Padrão de definição
+<?visibilidade?><?tipo?><?modificador?> retorno nome (<?parâmetros?>)<?exceções?> corpo
+V: "public", "protected" ou "private"
+T: concreto ou abstrato (voltado a orientação de objeto)
+M: "static" ou "final"
+R: tio de dado ou "void"
+N: nome que é fornecido ao método
+P: parâmetros que pode receber (NÃO OBRIGATÓRIO)
+E: exceções que pode lançar
+C: código que possui ou vazio, o que está englobado entre {}
+
+O que mais utilizamos é:
+V"public" M"static" R N(P) {...}
+
+Exemplos de utilização:
+nome_da_classe.nome_do_metodo(...);
+nome_do_objeto.nome_do_metodo(...);
+
+Math.random(); ou Math.sqrt(4); (chamar o método atravez de uma classe)
+usuario.getEmail(); ou usuario.alterarEndereço(endereço); (chamar atravez de um objeto)
+
+
+Particularidades
+Construtor e destrutor;
+Mensagem
+
+Passagem de parâmetros:
+- Por valor (cópia)
+
+- Por referência (endereço)
+
+
+Boas práticas
+- Nomes devem ser descritivos, mas curtos
+- Notação camelo
+- Deve possuir entre 80 e 120 linhas (métodos auxíliares, método que chama método)
+- Evite lista de parâmetros longas
+- Visibilidade adequada
+
+
+Exercitando:
+
+------- AULA 2 - Sobrecarga
+
+
+
+------- AULA 3 - Retorno
