@@ -70,5 +70,12 @@ Exercício de calcular a área dos 3 quadriláteros notáveis: quadrado, retâng
 
 
 ------- AULA 3 - Retorno
+É uma instrução de interrupção. Onde há o return, o método será interrompido, retornando as instruções
+Simbologia: return
 
+É muito atrelado ao Método, sendo executado quando:
+- completa todas suas instruções internas
+- chega a uma declaração explicita de retorno
+- lança uma exceção
 
+O tipo de retorno do método é definido na sua criação e pode ser um tipo primitivo ou objeto, sendo que o dado do return deve ser compatível com o declarado
