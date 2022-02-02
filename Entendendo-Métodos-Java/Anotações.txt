@@ -56,7 +56,19 @@ Boas práticas
 Exercitando:
 
 ------- AULA 2 - Sobrecarga
+O que é sobrecarga e como criar
+É a capacidade de definir métodos para diversos contextos, mas preservando seu nome e mudando seus parâmetros.
 
+Criação
+Alterar a assinatura do método:
+Ass: nome(fixo) + parâmetros
+area(double lado1, double lado2);
+area(double lado1, double lado2, double altura);
+area(int x);
+
+Exercício de calcular a área dos 3 quadriláteros notáveis: quadrado, retângulo e trapézio.
 
 
 ------- AULA 3 - Retorno
+
+
