@@ -1,0 +1,143 @@
+
+Prof. Thiago Leite
+
+------- AULA 1 - Operadores relacionais
+Compreender operadores lógicos e relacionais, além de estruturas de controle de fluxo e blocos.
+
+O que são Operadores Relacionais?
+Símbolos especiais capazes de realizar comparações entre determinados operandos e, em seguida, retorar um resultado.
+
+Sempre existiram dois operandos.
+
+Tipos:
+ - Similaridade:
+ igual (==) - determina se um operando é igual ao outro
+ diferente (!=) - determina se é diferente
+ - Tamanho:
+ maior (>), maior igual (>=)
+ menor (<), menor igual (<=)
+
+
+Exemplos:
+int i1 = 10; int i2 = 20;
+float f1 = 4.5f; float f2 = 3.5f;
+char c1 = 'x'; char c2 = 'y';
+String s1 = "Fulano"; String s2 = "Fulano";
+boolean b1 = true; boolean b2 = false;
+
+i1 == i2, i1 != i2, i1 > i2, i1 <= i2
+f1 == f2, f1 != f2, f1 >= f2, f1 < f2
+c1 == c2, c1 != c2, c1 > c2, c1 <= c2
+s1 == s2, s1 != s2, maior igual não se aplica a String
+b1 == b2, b1 != b2 maior igual também não aplica a boolean
+
+Exercício... 
+
+
+------- AULA 2 - Operadores lógicos
+O que são?
+Símbolos especiais que realizam comparações lógicas entre operandos lógicos ou expressões, retornando um resultado.
+
+São aplicados apenas em operadores lógicos.
+
+Ao utilizar Operadores Lógicos e Operadores Relacionais, criamos uma expressão que resultará um booleano.
+
+TIpos:
+- Conjunção (&& - and/e)
+- Disjunção (|| - or/ou)
+- Disjunçao exclusiva (^ - xor)
+- Negação (! - inversão)
+
+Exemplos:
+boolean b1 = true; boolean b2 = false;
+boolean b3 = ture; boolean b4 = false;
+
+b1 && b2, b1 && b3
+b2 || b3, b2 || b4
+b1 ^ b3, b4 ^ b1
+!b1, !b2
+(i1 > i2) || (f2 < f1)
+((i1 + i2) < (f2 - f1)) && true
+
+bitwise (& e |) não é operador lógico, mexe com bits
+shift: (~, >>, >>>, <<)
+
+Boas práticas:
+Criar variáveis auxiliares para guardar resultados intermediários.
+(salarioMensal < mediaSalario) && (quantidadeDependentes >= mediaDependentes)
+  pode ser
+(salarioBaixo) && (muitosDependentes)
+  ou ainda
+boolean recebeAuxilio = (salarioBaixo) && (muitosDependentes);
+
+------- AULA 3 - Controle de fluxos
+O que são?
+São estruturas que tem a capacidade de direcionar o fluxo de execução do código.
+
+Tipos:
+- Decisão: if, if-else, if-else-if, switch e operador ternário
+- Repetição: for, while, do while
+- Interrupção: break, continue e return
+
+NOTA: Nesta aula, apenas a Estrutura de Decisão será abordada.
+
+Decisão: estrutura que avalia uma condição boolena ou variável para direcionar o fluxo de execução
+- opções: if(se), switch(escolha) e operador ternário
+
+if, if-else, if-else-if,
+Estruturas:
+if (condição) {...}
+
+if (condição) {
+} else {...}
+
+if (condição) {
+} else if {
+} else {...}
+
+Operador ternário
+- É uma estrutura linear. Deve ser evitado ao máximo!
+Estrutura:
+condição ? true : false;     condição ? true : null;
+ligado ? desligar : ligar;   emMovimento ? freia : null;
+
+Switch(escolha):
+- Ele avalia uma variável.
+Variáveis:
+byte
+short
+char
+int
+Enum
+String
+
+Estrutura:
+switch (variável) {
+   case 'variável':
+	funções:
+	break;
+   case ... :
+	break;
+   default:
+	break;
+}
+
+
+BOAS PRÁTICAS
+- Switch é para valores exatos e if para expressões boleanas. No caso, quando se tem apenas UMA variável, um valor exato (mes == "junho"), Switch, se não, IF.
+- Evitar usar o default do switch para "casos genéricos". Usar o default para indicar que o valor passado está errado.
+- Evitar o efeito "flecha" dos if's
+- Evitar muitos if's aninhados
+- Criar variáveis intermediárias para diminuir o tamanho dos if's
+
+
+Exercício...
+
+------- AULA 4 - Blocos (de execução)
+O que são?
+É um grupo de 0 ou mais códigos que trabalham em conjunto para executar uma operação, ou seja, as chaves { }
+
+Tipos:
+ - Locais: dentro de métodos (dentro do método main)
+ - Estáticos: dentro de classes (Orientação a Objeto)
+ - Instância: dentro de calsses (Orientação a Objeto)

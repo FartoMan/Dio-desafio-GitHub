@@ -1,5 +1,8 @@
 Prof.: Thiago Leite e Carvalho
 
+Um exemplo bobo: Um projeto é como uma escola, nela existem as classes (Class). A execução de um programa/projeto, é como a apresentação de trabalho, onde cada aluno é um Método, e o método Main, a frente da sala.
+Cada Método é responsável por exibir, executar uma função. Quando o main chama um método, ele vai a frente da sala e o exibe/executa, mostra o que era seu trabalho. Ele pode ser interrompido a qualquer momento.
+
 ------- AULA 1 - Criação
 O que é um método?
 É uma porção de código que é disponibilzda por uma classe, que é executado quando é feita uma requisição a ele. São responsáveis por definir e realizar um determinado comportamento.
