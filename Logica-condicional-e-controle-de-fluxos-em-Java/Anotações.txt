@@ -137,6 +137,8 @@ Exercício...
 O que são?
 É um grupo de 0 ou mais códigos que trabalham em conjunto para executar uma operação, ou seja, as chaves { }
 
+NOTA IMPORTANTE: os blocos {} só são obrigados a serem utilizados caso haja mais de uma linha.
+
 Tipos:
  - Locais: dentro de métodos (dentro do método main)
  - Estáticos: dentro de classes (Orientação a Objeto)
