@@ -1,0 +1,113 @@
+Professor Thiago Leite
+------- AULA 1 - Introdução
+Objetivo:
+Entender todos os conceitos relatiovs à Orientação a Objetos (OO).
+
+Paradigma Orientado a Objeto: Java
+!
+Paradigma Estruturado: Linguagem C, Linux
+
+Por que é melhor OO do que Estruturado?
+Paradigma Estruturado tem uma representação mais simplista, já o Orientado a Objeto tem uma representação mais realista, voltada mais ao mundo real, com mecanismos mais completos.
+
+
+------- AULA 2 - Por que usar?
+PE > foca no "como fazer"
+POO > "o que fazer", qual o problema
+
+A orientação a objetos tem mais relação dos objetos entre si, mais próximo ao mundo real, sendo uma linguagem de mais Alto Nível, facilitando e melhorando o desenvolvimento de softwares.
+
+
+------- AULA 3 - Fundamentos
+O que é OO?
+
+"A Orientação a Objetos é um paradigma de análise, projeto e programação de sistemas de software baseado na composição e interação entre diversas unidades de software chamadas de objetos." (Wikipedia)
+
+ -- Pilares:
+
+ - Abstração > isolar certas características de um objeto e assimilar, usar com outros objetos do mesmo grupo (pernas, assento e encosto = cadeira)
+
+ - Reuso > Capacidade de criar novas unidades de códigos a partir de outras já existentes.
+
+ - Encapsulamento > Esconder complexidades e protejer dados.
+
+
+Exercícitando: Criar uma entidade LIVRO:
+LIVRO: Edição; Ano publicação; Quantidade páginas; Título; Idioma; Autor; Editora; ISBN; Tema
+
+
+------- AULA 4 - Estrutura básica da OO
+Classe; Atriuto; Método; Objeto; Mensagem
+Elas são o pontapé inicial para se começar a trabalhar OO.
+
+-- Classe
+Unidade mínima e básica num paradigma de implementação de OO. Dentro da calsse são atribuídos os atirbutos, métodos e objetos. É a base.
+É uma estrutura que abstrai um conjunto de objetos com características similares.
+
+Exemplos: Bola, Carro, Viagem, Venda, COmputador, Comprador, Venda.
+Coisas abstratas e concretas.
+
+
+Dicas:
+- Substantivos
+- Nomes significativos
+- Contexto deve ser considerado
+
+Código:
+class Carro { ... }
+
+
+-- Atributo
+Criado dentro da clase, é o elemento responsável por definir sua estrutura de dados. O conjuntos destes será responsável por representar as características da classe.
+
+Exemplos:
+Carro - cor; Bola - diametro; Venda - valor
+
+Atributo x Variável
+A: O que é próprio e peculiar a alguém ou alguma coisa. Invariável, própria de um personagem, representar um conceito do mundo real
+V: Sujeito a variações ou mudanças; que pode variar; inconstante, instável. Utilizadas dentro de métodos. 
+
+Dicas:
+- Substantivos e adjetivos
+- Nome significativos
+- Contexto deve ser considerado
+- Abstração
+- Tipos de dados adequados
+
+Código:
+class Carro { int portas; }
+
+
+-- Método
+Pode trabalhar e manipular os atributos da classe. São criados para prestar alguma função de acordo com a necessidade.
+São ações que fazem algo, utilizados como se fossem verbos.
+
+Métodos especiais:
+- Construtor: Constrói objetos apartir das classes. Se necessário, ele pode conter parâmetros iniciais
+NOTA: Em java, o Construtor é obrigatório ser igual ao nome da classe.
+Ex.: class Carro { Carro() { ... } } 
+- Destrutor: auxilia na destruição do objeto. Limpa o 'lixo'. Ele sempre será "void finalize". No java, sempre há um processo de se eliminar objetos ociosos, assim, ele chama esse destrutor.
+Ex.: class Carro { void finalize() { ... } }
+
+Sobrecarga:
+Mudar a assinatura de acordo com a necessidade. Assinatura: nome+parâmetros
+Ex.:
+m1(); m1(int i); m1(float f); m1(String s, long l); m1(long l, String s);
+
+Criação:
+- Visibilide; Retorno; Nome; Parâmetros;
+
+Dicas:
+- Verbos
+- Nome significativos
+- Contexto deve ser considerado
+
+Códigos:
+class Carro { void frear() { ... } }
+
+
+------- AULA 5 - As relações: Herança, Associação e Interface
+
+
+
+------- AULA 6 - A Organização de Pacotes e Visibilidade
