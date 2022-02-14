@@ -106,6 +106,24 @@ Códigos:
 class Carro { void frear() { ... } }
 
 
+--Objeto
+É a representação de um conceito/entidade do mundo real, pode ser física (bola, carro, árvore...) ou conceitual (viagem...). O objeto é o que realmente é executado pelo programa, a Classe serve de molde para o Objeto, mas o que realmente armazena valores é o Objeto(s).
+
+Códigos:
+Carro carro = new Carro();
+=
+Classe variável(doTipoCarro) = operadorNew Construtor();
+
+
+--Mensagem
+Processo de ativação de um método, é a solicitação que um método executa para ser feita a execução de seu comportamento descrito por sua clase.
+
+Códigos:
+Carro carro = new Carro(); // Criação do objeto
+carro.<método>; // Chamando via objeto
+Carro.<método>; // Chamando via classe
+
+
 ------- AULA 5 - As relações: Herança, Associação e Interface
 
 
