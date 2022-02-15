@@ -180,6 +180,72 @@ A possibilidade de um método se comportar se forma diferente.
 Ex.: (Conta [Corrente][Poupança][Especial][Universitária])
 
 
+--Associação
+Possibilita uma relação entre classes/objetos para pedir ajuda para se usarem mutuamente, interagindo entre si.
 
+Tipos:
+- Estrutural (atributos): Composição, Agregação
+- Comportamental (métodos): Dependência
+
+-- Associação Esturutal:
+Composição: Com Parte Todo
+Ex.: Pessoa e Endereço
+Código:
+class Pessoa { Endereco endereco; }
+
+Agregação: Sem Parte Todo
+Ex.: Disciplina e Aluno
+Código:
+class Disciplina { Aluno aluno; }
+
+Relação entre Agregação x Composição:
+Na composição, os dois tipos dependem fortemente um do outro, a classe do objeto, o objeto da classe. Na agregação é menos dependente.
+
+-- Associação Comportamental:
+Dependência: "Depende de"
+Ex.: Compra e Cupom
+Código:
+class COmpra { ... finalizar(Cupom cupom, ...) }
+
+Relação Herança x Associação
+Herança é mais rígida, hereditário, quando a classe é criada já é pensada a sua herança. A Associação é um pouco mais flexível.
+
+
+--Interface
+Define um contrato que deve ser seguido pela classe que a implementa. Quando uma classe implementa uma inferface, ela se compromete a realizar todos os comportamentos que a interface disponibiliza.
+
+É o que permite, por exemplo, uma impressora executar seus métodos em 3 Sistemas Operacionais diferentes. Ela executa os mesmos métodos para cada um.
+
+Código:
+interface A { ... }
+class B implementes A { ... }
 
 ------- AULA 6 - A Organização de Pacotes e Visibilidade
+--Pacotes
+Organização física (pastas) ou lógica (classes utilitárias).
+
+Código:
+package NomeDoPacote;
+
+import NomeDeClasseEmOutroPacote;
+
+--Visibilidades (ou Modificadores de Acesso)
+Determinar até que ponto uma classe, atributo ou método podem ser usados. É fundamental para o uso da Orientação a Objetos.
+
+Tipos:
+- Private: só dentro da classe
+Código: private int i;
+- Protected: Dentro da classe, mesmo pacote e subclasses
+Código: protected void do();
+- Public: Em qualquer lugar
+Código: public int i;
+
+
+DICAS DO QUE ESTUDAR:
+- Padrões de Projeto (Desing Patterns)
+- Boa p´raticas:SOLID, código, tecnicas de programação, etc.
+- Refatoração
+- UML
+- Frameworks
+- MUITA prática e estudo
+
