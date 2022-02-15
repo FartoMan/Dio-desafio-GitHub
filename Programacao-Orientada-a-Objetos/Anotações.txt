@@ -123,8 +123,62 @@ Carro carro = new Carro(); // Criação do objeto
 carro.<método>; // Chamando via objeto
 Carro.<método>; // Chamando via classe
 
+Dicas:
+- Pesquisar Instância x Estático: atributos e métodos
+- Estado de um Objeto
+- Identidade de um Objeto
+- Representação numérica
+- Representação padrão de um Objeto
+
+
+
 
 ------- AULA 5 - As relações: Herança, Associação e Interface
+
+--Herança
+Relacionamento entre classes em que uma classe chamada de subclasse é uma extensão, um subtipo, de outra classe chamada classe base. É um tipo mais especializado a partir de outro já criado. Além do que herdou, ela pode definir seu próprios membros.
+
+NOTA: Nem tudo que está atribuído na Classe Mãe é visto nas subclasses.
+
+Códigos:
+class A extends B { ... }
+
+
+--Tipos de herança: 
+- Simples: tem só uma classe mãe (Funcionário [gerente, vendedor, faxineiro])
+- Multipla: A classe filha tem uma ou mais classes mãe  (estudante, funcionário [estagiário]) (NÃO SE APLICA A JAVA)
+
+Obs.: Herança multipla não se aplica a Java por conta de conflito em nomes dos atributos, variáveis etc.
+
+
+--Upcast e Downcast
+Ex.:
+Classe mãe: Funcionário
+Subclasses: Gerente, Vendedor Faxineiro
+
+Upcast: Se eu transformo o Gerente num Funcionário, ou seja, se eu passo um específico para algo mais genérico
+-Código:
+A a = new B(); > implicito
+
+
+Downcast: Se eu transformo o Funcionário em um Gerente, ou seja, seu eu especifico algo genérico.
+-Códigos:
+B a = (B)new A(); > explícito
+
+
+--Polimorfismo
+Um mesmo método se comportar de forma diferente. Acaba sendo por herança.
+
+Ex.: Pagamento pode ser processado por várias subclasses, são elas boleto, crédito, débito, pix... Isso é um exemplo de polimorfismo, pois todos tem a ação Processar que se comporta de forma diferente, de acordo com a instânica em questão.
+
+(Pagamento [Boleto] [crédito] [débito] [PIX])
+
+
+--Sobrescrita
+A possibilidade de um método se comportar se forma diferente.
+
+Ex.: (Conta [Corrente][Poupança][Especial][Universitária])
+
 
 
 
