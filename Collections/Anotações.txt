@@ -1,0 +1,38 @@
+Collections:
+é um objeto que agrupa múltiplos elementos (variáveis primitivas ou objetos) dentro de uma única unidade.
+
+
+Composição
+Interfaces:
+- Map > HashMap 
+- Set
+- List > Vector > Iterator
+
+Implementações
+
+Algorítimos
+
+Criando uma lista:
+- List<Tipo> variável = new ArrayList/LinkedList<>();
+<<O Tipo deve estar em CamelCase>>
+Ex.: List<Double> notas = new ArrayList<>();
+
+Metodos:
+lista.add = Adiciona um elemento à lista
+.indexOf = Descobre a posição do elemento na lista
+.set = Troca o valor de uma posição por outro valor
+.get = Exibe o valor em uma posição
+.iterator = chama o iterator
+.size = Quantidade de valores dentro da List
+.remove(3d) = remover um valor específico
+.remove(3) = remove o valor da posição 3 (0, 1, 2, 3)
+.clear = limpa toda a lista (NÃO APAGA A LISTA)
+.isEmpty = checa se está vazia (boolean)
+
+Iterator = Percorre a Collection, sendo que ele assume cada posição e sabe seus valores, permitindo a alteração e remoção de um valor (ou vários, num laço, por exemplo)
+
+Collections.min(lista) = Exibe o menor valor dentro de uma Colleciton
+
+Collections.max(collection) = Exibe o maior valor
+
+
