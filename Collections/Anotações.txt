@@ -17,7 +17,7 @@ Criando uma lista:
 <<O Tipo deve estar em CamelCase>>
 Ex.: List<Double> notas = new ArrayList<>();
 
-Metodos:
+Criação e manipulação: 
 lista.add = Adiciona um elemento à lista
 .indexOf = Descobre a posição do elemento na lista
 .set = Troca o valor de uma posição por outro valor
@@ -34,5 +34,79 @@ Iterator = Percorre a Collection, sendo que ele assume cada posição e sabe seu
 Collections.min(lista) = Exibe o menor valor dentro de uma Colleciton
 
 Collections.max(collection) = Exibe o maior valor
+
+-=-=-=-=-=-=-=-=-
+Ordenação:
+Comparator
+Comparable
+lista.sort
+-=-=-=-=-=-=-=-=-
+
+SET - java.util.Set
+
+
+- HashSet > elementos de forma aleatória, não repete iguais
+- LinkedHashSet > elem. por ordem de inserção (não repete iguais)
+- TreeSet > elem. por ordem natural (crescente) (não repete iguais)
+
+Criando um Set:
+- Set<Tipo> var - new HashSet<>();
+Trabalhando com iterator (ver doc.):
+Iterator<> var2 = var.iterator();
+
+var.toString
+.contains(elem.) 
+.iterator
+.remove
+.size
+.clear
+.isEmpty
+
+Collections.min(var) > exibe o elemento mínimo
+Collecitons.max(var) > exibe o elemento máximo
+
+-=-=-=-=-=-=-=-=-
+Ordenação:
+Comparator
+Comparable
+lista.sort
+-=-=-=-=-=-=-=-=-
+
+MAP - java.util.Map
+Não faz parte do Collection;
+É um objeto
+
+* key (elemento único)
+* valor (value)
+* Big O notation [link=https://www.baeldung.com/java-algorithm-complexity]
+
+- Hashtable
+- HashMap > LinkedHashMap
+- TreeMap
+
+Criando um Map:
+Map<Key, Tipo> var = new HashMap<>() {{ ... }}
+Ex.: Map<String, Double> carrosPop = new HashMap<>();
+
+.put
+.toString
+.containsKey
+.get
+.size
+.iterator
+.values 
+
+
+Streams API <------------------<<<<<<<<<<<<<<<<<
+
+- Classe anônima
+- Functional Interface > Comparator; Consumer; FUnction; Predicate
+- Lambda > sintaxe: (argumento) -> (corpo);
+- Reference Method > Uso :: (simplificar uma Lambda)
+Ex.: (Comparator.comparting(Gato::getNome));
+
+
+Steams API << Pesquisar
+
 
 
